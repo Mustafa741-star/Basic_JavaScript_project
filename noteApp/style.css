@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+
+.noteApp {
+    width: 100%;
+    max-width: 750px;
+    /* background-color: red; */
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.noteApp span {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.noteApp span img {
+    height: 50px;
+}
+
+.noteApp button {
+    border: none;
+    outline: none;
+    display: block;
+    background-color: #912ef8;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* font-size: 16px; */
+}
+
+.noteApp button img {
+    height: 20px;
+}
+
+.noteList {
+    height: 150px;
+    width: 500px;
+
+}
+
+.node {
+    background-color: #fff;
+    /* height: 150px; */
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 100%;
+    text-align: start;
+    color: #000;
+    overflow: auto;
+    position: relative;
+}
+
+.node::-webkit-scrollbar {
+    display: none;
+}
+
+.deleteImage {
+    position: absolute;
+    height: 25px;
+    right: 20px;
+    bottom: 10px;
+    cursor: pointer;
+    /* background-color: red; */
+
+}
